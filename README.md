@@ -1,3 +1,5 @@
+>Note: It'll take time to change things over to being named "WeastroShell". See also issue #1.
+
 *Abanu Desktop is a Desktop Environment for Windows and Linux. It's extremly fast.*
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/abanu-desktop/abanu?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
