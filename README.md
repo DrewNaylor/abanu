@@ -16,7 +16,7 @@
 * inspired by XFCE (from for Linux)
 
 ## Screenshots
-These screenshots were taken by Drew Naylor when the project was still called Abanu Desktop, but after it was moved to .NET Framework 4.7.2 and set to use GTK# libraries from NuGet and MSYS2.<br>
+These screenshots were taken by Drew Naylor when the binaries still called themselves abanu/abanu.panel, but after it was moved to .NET Framework 4.7.2 and set to use GTK# libraries from NuGet and MSYS2.<br>
 Panel:<br>
 ![](/docs/images/weastroshell-panel.png?raw=true)<br>
 Menu:<br>
