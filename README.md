@@ -1,5 +1,13 @@
 >Note: It'll take time to change things over to being named "WeastroShell". See also issue #1.
 
+>Note 2: Any local clones will have to have their main branch updated by running this command. I'll delete this text in a few days.
+```
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
+
 *WeastroShell is a Desktop Environment for Windows and Linux. It's extremly fast.*
 
 This project is a fork of [Abanu Desktop](https://github.com/abanu-desktop/abanu). WeastroShell is not associated with Abanu Desktop or any of its developers beyond being a fork and using Abanu Desktop's code.
