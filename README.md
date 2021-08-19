@@ -15,6 +15,13 @@
 * Ultrafast application start menu
 * inspired by XFCE (from for Linux)
 
+## Screenshots
+These screenshots were taken by Drew Naylor when the project was still called Abanu Desktop, but after it was moved to .NET Framework 4.7.2 and set to use GTK# libraries from NuGet and MSYS2.<br>
+Panel:<br>
+![](/docs/images/weastroshell-panel.png?raw=true)<br>
+Menu:<br>
+![](/docs/images/weastroshell-menu.png?raw=true)
+
 ## How to install / build / run:
 * Download and Install GTK# 2.99/3.0: **[Download](https://github.com/mono/gtk-sharp/releases/download/2.99.3/gtk-sharp-2.99.3.msi)**. For Linux, install the gtk-sharp3 package with your packetmanager.
 * Note by Drew Naylor: You'll need to follow the GtkSharp instructions for installing GTK# on Windows here: https://github.com/GtkSharp/GtkSharp/wiki/Installing-Gtk-on-Windows You may also need to add the "lib" directory to your PATH in addition to the "bin" directory. At the moment, things only start by changing the solution platform to x64 for the panel project, though I'm going to try to figure out how to get this to work under AnyCPU.
