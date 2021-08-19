@@ -17,6 +17,7 @@
 
 ## How to install / build / run:
 * Download and Install GTK# 2.99/3.0: **[Download](https://github.com/mono/gtk-sharp/releases/download/2.99.3/gtk-sharp-2.99.3.msi)**. For Linux, install the gtk-sharp3 package with your packetmanager.
+* Note by Drew Naylor: You'll need to follow the GtkSharp instructions for installing GTK# on Windows here: https://github.com/GtkSharp/GtkSharp/wiki/Installing-Gtk-on-Windows You may also need to add the "lib" directory to your PATH in addition to the "bin" directory. At the moment, things only start by changing the solution platform to x64 for the panel project, though I'm going to try to figure out how to get this to work under AnyCPU.
 * Download and extract Source (Zip-Archive): **[Download](https://github.com/abanu-desktop/abanu/archive/master.zip)**
 * Enter `abanu` directory and call `make.cmd` (Windows) call `make` (Linux)
 * Call `run.cmd` or `bin/abanu.panel.exe`
