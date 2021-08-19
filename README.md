@@ -1,12 +1,14 @@
->Note: It'll take time to change things over to being named "WeastroShell". See also issue #1.
+>**Note:** It'll take time to change things over to being named "WeastroShell". See also issue #1.
 
->Note 2: Any local clones will have to have their main branch updated by running this command. I'll delete this text in a few days.
+>**Note 2:** Any local clones will have to have their main branch updated by running this command. I'll delete this text in a few days.
 ```
 git branch -m master main
 git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
 ```
+
+>**Note 3:** This project is currently not free/libre open source software due to the presence of a file using the Code Project Open License, `src/core/INIFile.cs` to be specific. It'll soon be replaced with libinidotnet, which is a fork of MadMilkman.Ini ported to .NET Standard.
 
 *WeastroShell is a Desktop Environment for Windows and Linux. It's extremly fast.*
 
