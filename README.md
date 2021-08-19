@@ -26,7 +26,7 @@ Menu:<br>
 ## How to install / build / run:
 * Download and Install GTK# 2.99/3.0: **[Download](https://github.com/mono/gtk-sharp/releases/download/2.99.3/gtk-sharp-2.99.3.msi)**. For Linux, install the gtk-sharp3 package with your package manager.
   * Note by Drew Naylor: The instructions to download and install GTK# 2.99/3.0 are out of date and will be rewritten once I verify which package needs to be installed on Linux. You'll need to follow the GtkSharp instructions for installing GTK# on Windows here: https://github.com/GtkSharp/GtkSharp/wiki/Installing-Gtk-on-Windows You may also need to add the "lib" directory to your PATH in addition to the "bin" directory. At the moment, things only start by changing the solution platform to x64 for the panel project, though I'm going to try to figure out how to get this to work under AnyCPU. Update: it works under AnyCPU now, though it's only been tested on 64-bit Windows.
-* Download and extract Source (Zip-Archive): **[Download](https://github.com/abanu-desktop/abanu/archive/master.zip)**
+* Download and extract Source (Zip-Archive): **[Download](https://github.com/DrewNaylor/weastroshell/archive/main.zip)**
 * Enter `abanu` directory and call `make.cmd` (Windows) call `make` (Linux)
 * Call `run.cmd` or `bin/abanu.panel.exe`
   * Note by Drew Naylor: I'm trying to make it easy to build and debug without running scripts (aside from passing the binaries to dotnet/mono on Linux, which is to be expected) and instead by clicking the "Debug" button in Visual Studio, and currently that seems to work, so I'd advise against using the scripts as they'll be removed eventually when this project is moved to .NET Core/.NET 5.
