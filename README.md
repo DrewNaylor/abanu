@@ -5,7 +5,7 @@
 This project is a fork of [Abanu Desktop](https://github.com/abanu-desktop/abanu). WeastroShell is not associated with Abanu Desktop or any of its developers beyond being a fork and using Abanu Desktop's code.
 
 ## WeastroShell contains the following applications:
-* WeastroShell Panels (Application Menu; Window List; Clock; configurable size, position, and even amount of panels so you can add a sidebar, for example) [implemented]
+* WeastroShell Panels (Application Menu; Window List; Clock; configurable size, position, and even amount of panels so you can add a sidebar, for example, though I don't know for sure if vertical panels are supported) [implemented]
 * WeastroShell Explorer [not implemented yet]
 * WeastroShell Background Window (Desktop Icons) [not implemented yet]
 
