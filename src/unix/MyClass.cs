@@ -30,7 +30,9 @@
 // Drew Naylor put this license/copyright boilerplate text here for clarity because it was missing in
 // the original code, though it's assumed that doing so is ok because the project itself was under
 // the MIT License and as such both the license and copyrights should apply to all the files
-// unless otherwise specified.
+// unless otherwise specified. This boilerplate will be removed or modified if requested, with
+// the exception of the statement that modifications to the file are copyright to Drew Naylor, because
+// you're supposed to say when a file is modified, and your modifications are owned by you.
 //
 
 using System;
