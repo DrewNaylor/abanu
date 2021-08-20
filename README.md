@@ -8,9 +8,7 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 
->**Note 3:** This project is currently not free/libre open source software due to the presence of a file using the Code Project Open License, `src/core/INIFile.cs` to be specific. It'll soon be replaced with libinidotnet, which is a fork of MadMilkman.Ini ported to .NET Standard.
-
-*WeastroShell is a Desktop Environment for Windows and Linux. It's extremly fast.*
+*WeastroShell is a lightweight and fast free/libre open source desktop environment for Windows and Linux.*
 
 This project is a fork of [Abanu Desktop](https://github.com/abanu-desktop/abanu). WeastroShell is not associated with Abanu Desktop or any of its developers beyond being a fork and using Abanu Desktop's code.
 
