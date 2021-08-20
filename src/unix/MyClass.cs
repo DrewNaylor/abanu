@@ -24,16 +24,15 @@ namespace abanu.unix
 
 		public override TLauncherEntry ReadLinkFile(string file)
 		{
-			var ini = new INIFile(file);
 			var entry = new TLauncherEntry();
-			entry.Name = ini.GetValue("Desktop Entry", "Name", "");
-			var cmd = ini.GetValue("Desktop Entry", "Exec", "");
+			entry.Name = desktopEntryStuff.getInfo(file, "Name");
+			var cmd = desktopEntryStuff.getInfo(file, "Exec");
 			entry.CommandPath = Path.GetDirectoryName(cmd);
 			entry.CommandFile = Path.GetFileName(cmd);
 			entry.CommandArgs = ""; //TODO
-			entry.Categories = ini.GetValue("Desktop Entry", "Categories", "");
-			entry.IconName = ini.GetValue("Desktop Entry", "Icon", "");
-			entry.Description = ini.GetValue("Desktop Entry", "Comment", "");
+			entry.Categories = desktopEntryStuff.getInfo(file, "Categories", file, true);
+			entry.IconName = desktopEntryStuff.getInfo(file, "Icon", file, true);
+			entry.Description = desktopEntryStuff.getInfo(file, "Comment", file, true);
 			entry.UpdateMainCategory();
 			return entry;
 		}
