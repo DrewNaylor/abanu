@@ -3,6 +3,7 @@ using System.IO;
 using Gdk;
 using Gtk;
 using System.Runtime.InteropServices;
+using libdotdesktop_standard;
 
 using abanu.core;
 
