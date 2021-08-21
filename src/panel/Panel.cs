@@ -55,7 +55,7 @@ namespace abanu.panel
 			// Uncomment the next line to remove window decorations
 			// from the panel window. This is recommended as it'll properly
 			// look like a panel.
-			//Decorated = false;
+			Decorated = false;
 			KeepAbove = true;
 			//this.Resizable = false;
 			//this.SetDefaultSize(300, 300);
