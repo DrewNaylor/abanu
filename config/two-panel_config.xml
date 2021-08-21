@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This is an example config file based off the original and modified by Drew Naylor to set up a two-panel layout. As of August 21, 2021, only horizontal panels seem to be supported. You can use this config file by changing its filename to "config.xml", though you'll have to either move or rename the default config file first. -->
 <config>
 	<panels>
-		<panel orientation="horizontal" monitor="0" x="0" y="0" row-height="30" rows="1" size="100%" dock="top">
+		<panel orientation="horizontal" monitor="0" x="-30" y="0" row-height="24" rows="1" size="100%" dock="top">
+			<!-- Note: There seems to be a space of 30 pixels above the panel even if the windows are set to be undecorated, which is why it's set to -30 for "x". This may be a Windows thing. -->
 			<plugins>
 				<plugin type="clock" expand="true" />
 			</plugins>
 		</panel>
-		<panel orientation="horizontal" monitor="0" x="0" y="0" row-height="30" rows="1" size="100%" dock="bottom">
+		<panel orientation="horizontal" monitor="0" x="0" y="0" row-height="24" rows="1" size="100%" dock="bottom">
+		<!-- Note: While docking a panel to the bottom and setting its "rows" to 1 makes the bottom panel almost show up where the Windows taskbar goes if you have it set to autohide before starting the panel, the bottom of the panel is slightly cut off unless it has extra rows. Not sure exactly why this is, but maybe it's something to do with Windows or my monitor. Trying to change the value for "x" has no effect. -->
 			<plugins>
 				<plugin type="appmenu" />
 				<plugin type="windowlist" expand="true" />
